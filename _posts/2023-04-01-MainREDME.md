@@ -4,8 +4,6 @@ title: "[Project] 메인프로젝트 HelFit Readme"
 categories: Project
 tags: [배포, Helfit]
 toc: true
-published : false
-
 
 ---
 
