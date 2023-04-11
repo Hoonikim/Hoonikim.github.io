@@ -41,7 +41,7 @@ toc: true
 |                     임희연<br>(FE, 팀장)                     |                        한승완<br>(FE)                        |                        김세훈<br>(FE)                        |                    조영롱<br>(BE,부팀장)                     |                        이승배<br>(BE)                        |                       박의진 <br>(BE)                        |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | <img alt="임희연" src="https://cdn.discordapp.com/attachments/1073469469743128606/1080757691250651176/my_profile_pic.png" height="100" width="100"> | <img alt="한승완" src="https://cdn.discordapp.com/attachments/1074547492793897000/1080758041072369744/KakaoTalk_20230213_151839143.jpg" height="100" width="100"> | <img alt="김세훈" src="https://user-images.githubusercontent.com/104547038/222361813-b9748fa3-5754-43d5-8654-e16aadbfb08a.jpeg" height="100" width="100"> | <img alt="조영롱" src="https://cdn.discordapp.com/attachments/1074549201322659940/1080781411763634266/20220809_213109.jpg" height="100" width="100"> | <img alt="이승배" src="https://cdn.discordapp.com/attachments/1074548651763957801/1080759164084682892/KakaoTalk_20230213_150507142.jpg" height="100" width="100"> | <img alt="박의진" src="https://cdn.discordapp.com/attachments/1080750095684861962/1080759867268153445/KakaoTalk_20230302_165313193.jpg" height="100" width="100"> |
-| <p align="left">- **Pages**<br/>-  Question detail page<br/>- Ask question page <br/>**Components**<br/>-  Navigation <br/>- Tag <br/>- Editor <br/>**Features**<br/>-  Question CRD<br/>- Answer CRD <br/> - Comment CRD  <br/>- Vote CD <br/></p> | <p align="left">- **Pages**<br/>-  Main page<br/>- Edit Question page<br/>- Edit Answer page<br/>**Components**<br/>-  Header <br/>- Side navigation <br/>**Features**<br/>-  Question RU<br/>- Answer U <br/> - Search by <br/>keywords, tags <br/>and username  <br/></p> | <p align="left">- **Pages**<br/>-  Signup page<br/>- Login page <br/>**Components**<br/>-  Buttons <br/>- Footer <br/>**Features**<br/>-  Email signup<br/>-  Email login<br/> logout <br/> - Manage access <br/>and refresh token  <br/>Readme  <br/></p> | <p align="left"><br/>-회원가입 기능<br/>(회원가입시 이메일 발송)<br/>\- 스프링 시큐리티<br/>(인증, 인가, JWT)<br/>(검색 기능)<br/>\- 배포 환경 구축<br/>(AWS 배포)<br/> | <p align="left">-CRUD<br/>-답변,댓글<br/>예외 처리<br/> 기능 구현<br/>답변 투표 실행<br/>- 취소 기능<br/> | <p align="left">- CRUD<br/>-질문,댓글<br/>-TAG 등록 구현 <br/>-검색 기능 구현<br/>-투표 기능 구현<br/>-배포 환경 구성 <br/> |
+| - **Pages**<br/>-  Question detail page<br/>- Ask question page <br/>**Components**<br/>-  Navigation <br/>- Tag <br/>- Editor <br/>**Features**<br/>-  Question CRD<br/>- Answer CRD <br/> - Comment CRD  <br/>- Vote CD <br/> | - **Pages**<br/>-  Main page<br/>- Edit Question page<br/>- Edit Answer page<br/>**Components**<br/>-  Header <br/>- Side navigation <br/>**Features**<br/>-  Question RU<br/>- Answer U <br/> - Search by <br/>keywords, tags <br/>and username  <br/> | - **Pages**<br/>-  Signup page<br/>- Login page <br/>**Components**<br/>-  Buttons <br/>- Footer <br/>**Features**<br/>-  Email signup<br/>-  Email login<br/> logout <br/> - Manage access <br/>and refresh token  <br/>Readme  <br/> | -회원가입 기능<br/>(회원가입시 이메일 발송)<br/>\- 스프링 시큐리티<br/>(인증, 인가, JWT)<br/>(검색 기능)<br/>\- 배포 환경 구축<br/>(AWS 배포)<br/> | -CRUD<br/>-답변,댓글<br/>예외 처리<br/> 기능 구현<br/>답변 투표 실행<br/>- 취소 기능<br/> | -질문,댓글<br/>-TAG 등록 구현 <br/>-검색 기능 구현<br/>-투표 기능 구현<br/>-배포 환경 구성 <br/> |
 
 <br/>
 
@@ -57,7 +57,7 @@ toc: true
 
 |                             Html                             |                             CSS                              |                          JavaScript                          |                            React                             |                    Styled-<br>Components                     |                            axios                             |                           Prittier                           |                            esLint                            |                         React-Quill                          |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img alt="Html" src ="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/440px-HTML5_logo_and_wordmark.svg.png" width="65" height="65" /> | <div style="display: flex; align-items: flex-start;"><img src="https://user-images.githubusercontent.com/111227745/210204643-4c3d065c-59ec-481d-ac13-cea795730835.png" alt="CSS" width="50" height="65" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="75" height="75" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://styled-components.com/logo.png" alt="styled-components icon" width="65" height="65" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://axios-http.com/assets/logo.svg" width="65" height="65"/></div> | <div style="display: flex; align-items: flex-start;"><img src="https://user-images.githubusercontent.com/81786662/210203759-1bd2d0ea-86b3-43c0-8e30-44436d73bb9f.png" width="65" height="65"/></div> | <div style="display: flex; align-items: flex-start;"><img src="https://user-images.githubusercontent.com/81786662/210204062-cb572e61-2027-4a9b-a52c-0eac83bcf703.jpeg" width="100" height="65"/></div> | <div style="display: flex; align-items: flex-start;"><img src="https://user-images.githubusercontent.com/81786662/210204172-8fc62516-4ee9-410d-859a-17a0da1e76f9.png" width="100" height="65"/></div> |
+| <img alt="Html" src ="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/440px-HTML5_logo_and_wordmark.svg.png" width="65" height="65" /> | <img src="https://user-images.githubusercontent.com/111227745/210204643-4c3d065c-59ec-481d-ac13-cea795730835.png" alt="CSS" width="50" height="65" /> | <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="75" height="75" /> | <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://styled-components.com/logo.png" alt="styled-components icon" width="65" height="65" /> | <img src="https://axios-http.com/assets/logo.svg" width="65" height="65"/> | <img src="https://user-images.githubusercontent.com/81786662/210203759-1bd2d0ea-86b3-43c0-8e30-44436d73bb9f.png" width="65" height="65"/> | <img src="https://user-images.githubusercontent.com/81786662/210204062-cb572e61-2027-4a9b-a52c-0eac83bcf703.jpeg" width="100" height="65"/> | <img src="https://user-images.githubusercontent.com/81786662/210204172-8fc62516-4ee9-410d-859a-17a0da1e76f9.png" width="100" height="65"/> |
 
 <br/>
 
@@ -65,7 +65,7 @@ toc: true
 
 |                             Java                             |                             AWS                              |                            mySQL                             |                             JWT                              |                            Spring                            |                        Spring<br>Boot                        |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" height="65" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="65" height="65" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" /></div> | <img alt="spring-boot logo" src="https://play-lh.googleusercontent.com/3C-hB-KWoyWzZjUnRsXUPu-bqB3HUHARMLjUe9OmPoHa6dQdtJNW30VrvwQ1m7Pln3A" width="65" height="65" > | <img alt="spring logo" src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" height="50" width="50" > | <img alt="spring-boot logo" src="https://t1.daumcdn.net/cfile/tistory/27034D4F58E660F616" width="65" height="65" > |
+| <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" /> | <img alt="spring-boot logo" src="https://play-lh.googleusercontent.com/3C-hB-KWoyWzZjUnRsXUPu-bqB3HUHARMLjUe9OmPoHa6dQdtJNW30VrvwQ1m7Pln3A" width="65" height="65" > | <img alt="spring logo" src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" height="50" width="50" > | <img alt="spring-boot logo" src="https://t1.daumcdn.net/cfile/tistory/27034D4F58E660F616" width="65" height="65" > |
 
 <br/>
 
@@ -75,7 +75,7 @@ toc: true
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                  **메인 페이지(검색,정렬)**                  |                 **로그인 / 회원가입 페이지**                 |
 | <img width="100%" src="https://user-images.githubusercontent.com/104547038/222377949-97f367bb-cc29-4315-b559-871e75a1f828.gif"/> | <img width="100%" src="https://user-images.githubusercontent.com/104547038/222377978-7a4b1444-8c5c-4f66-81eb-d613b3e4dda4.gif"/> |
-|                    **질문 게시글 작성 **                     |                     **질문 게시글 삭제**                     |
+|                     **질문 게시글 작성**                     |                     **질문 게시글 삭제**                     |
 | <img width="100%" src="https://user-images.githubusercontent.com/104547038/222381715-b6bd5bb2-e57a-4436-b62d-c7c3a17eac46.gif"/> | <img width="100%" src="https://user-images.githubusercontent.com/104547038/222381726-d322a447-e171-409b-a8f8-d54b20a35b7c.gif"/> |
 |                    **게시글, 답변 수정**                     |                 **좋아요 & 답변 등록-삭제**                  |
 | <img width="100%" src="https://user-images.githubusercontent.com/104547038/222378036-3c552bd3-2b15-4b5c-844b-92b172a1aebe.gif"/> | <img width="100%" src="https://user-images.githubusercontent.com/104547038/222381701-bcfd02f0-7d6b-40fd-b1bb-dd504410f6dd.gif"/> |
@@ -84,7 +84,7 @@ toc: true
 
 ## 나의 첫 프로젝트 시작 
 
-------------------------
+------------
 
 팀원분들은 스터디나 다른 활동들을 통해 이미 프로젝트 경험이 한 두번 정도는 있는 분들이셨다.  시작 전 개발방식에 대해 토론을 하는데 모르는 부분이 너무 많아서 작아지는 기분이 계속 들었다. 나는 모든게 처음이였기에 시작 전부터 배워가는 점이 너무 많아서 좋았다. 모르는 부분은 적극적으로 물어봤고 팀원분들은 너무 감사하게도 이해해주시며 세세하게 알려주셨다. 
 
@@ -92,7 +92,7 @@ toc: true
 
 그렇게  로그인, 회원가입, OAuth, Button컴포넌트, Footer컴포넌트, Readme작성을  담당하게 되었다. JWT를 생각보다 깊이 있게 알고있지 못했고 쿠키나 로컬스토리지도 실제로 다뤄본적이 없어서 걱정이 많이 되었지만 꼼꼼하게 다시 복습하고 공부하면 잘해낼 수 있을 것이라고 자신했다. 
 
-</br>
+
 
 ### KPT
 
@@ -143,7 +143,7 @@ toc: true
 
 깃허브로 블로그를 작성하는게 나뿐이여서 markdown 작업을 내가 진행했다. 프로젝트를 잘 관리한 다른 팀들을 보면 보통 ReadMe가 굉장히 잘 작성되어있는걸 보고 열심히 작업해서 우리팀도 나름 자랑할만한 ReadMe 파일 가지게 되었다. 
 
-</br>
+
 
 ### 첫 프로젝트를 마치며 
 
@@ -155,7 +155,7 @@ toc: true
 
 
 
-</br>
+
 
 #### 🐶 팀원들 리뷰 
 
