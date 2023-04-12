@@ -18,7 +18,7 @@ toc: true
 
 
 
-</br>
+
 
 - **`팀 명` :**  💪🏼 식스맨 👨‍👦‍👦
 - **`프로젝트 명` :** HelFit
@@ -52,7 +52,7 @@ toc: true
 
 <br/>
 
-#### 🖥 **Front-end** </span>
+#### 🖥 **Front-end** 
 
 Main Stack / Sub Stack
 
