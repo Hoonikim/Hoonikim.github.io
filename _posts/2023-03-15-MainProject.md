@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Project] 메인프로젝트 OAuth2 "
+title: "[Helfit] OAuth2 "
 categories: Project
 tags: [배포, Helfit]
 toc: true
@@ -8,8 +8,6 @@ toc: true
 ---
 
 ###  2023.03.15(수)
-
-
 
 ## 🤗 OAuth 성공 !!
 
