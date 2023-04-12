@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Project] 메인프로젝트 컴포넌트 "
+title: "[Helfit] 컴포넌트 "
 categories: Project
 tags: [배포, Helfit]
 toc: true
