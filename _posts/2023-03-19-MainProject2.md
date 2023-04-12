@@ -17,7 +17,7 @@ toc: true
 
 #### 💡 카테고리 Semantic-ui
 
-![스크린샷 2023-03-20 23.24.20](..assets/images/2023-03-19-MainProject2/스크린샷 2023-03-20 23.24.20.png)
+<img width="843" alt="스크린샷 2023-04-12 22 37 21" src="https://user-images.githubusercontent.com/104547038/231475127-845ed566-307e-4cd0-9afe-dd90184aa048.png">
 
 category.tsx
 
