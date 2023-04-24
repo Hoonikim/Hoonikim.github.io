@@ -8,5 +8,36 @@ main:
     url: https://github.com/Hoonikim
   - title: "Tag"
     url: /tags/
+    
+docs:
+  - title: 👨🏻‍💻 개발공부
+    children:
+      - title: "JavaScript"
+        url: /categories/JavaScript
+        
+      - title: "HTML"
+        url: /categories/HTML
+        
+      - title: "CSS"
+        url: /categories/CSS
+        
+      - title: "React"
+        url: /categories/React
+        
+      - title: "Algorithm"
+        url: /categories/Algorithm
+        
+      - title: "Network"
+        url: /categories/Network
+        
+  - title: 🏋🏻 Project
+    children:
+      - title: "Helfit"
+        url: /categories/raspberry_pi
+        
+      - title: "mini"
+        url: /categories/raspberry_pi
+        
+        
   # - title: "Sitemap"
   #   url: /sitemap/
