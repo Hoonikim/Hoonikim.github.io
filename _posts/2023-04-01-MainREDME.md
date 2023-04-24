@@ -1,9 +1,13 @@
 ---
-layout: single
 title: "[Project] 메인프로젝트 HelFit 회고"
 categories: Project
 tags: [배포, Helfit]
 toc: true
+layout: archive
+permalink: categories/Helfit
+author_profile: true
+types: posts
+docs: Helfit
 
 ---
 
