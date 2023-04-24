@@ -33,10 +33,10 @@ docs:
   - title: 🏋🏻 Project
     children:
       - title: "Helfit"
-        url: /categories/raspberry_pi
+        url: /categories/Helfit
         
       - title: "mini"
-        url: /categories/raspberry_pi
+        url: /categories/mini
         
         
   # - title: "Sitemap"
