@@ -4,7 +4,6 @@ categories: Project
 tags: [배포, Helfit]
 toc: true
 layout: archive
-permalink: categories/Helfit
 author_profile: true
 types: posts
 docs: Helfit
