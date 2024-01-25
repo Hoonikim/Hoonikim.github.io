@@ -11,12 +11,12 @@ main:
     
 docs:
   - title: 👨🏻‍💻 개발공부
-    children:
+    children:   
       - title: "JavaScript"
         url: /categories/JavaScript
         
-      - title: "HTML"
-        url: /categories/HTML
+      - title: "Next.js"
+        url: /categories/Next.js
         
       - title: "CSS"
         url: /categories/CSS
@@ -34,6 +34,9 @@ docs:
     children:
       - title: "Helfit"
         url: /categories/Helfit
+        
+      - title: "OMT"
+        url: /categories/OMT   
         
       - title: "mini"
         url: /categories/mini

@@ -1,6 +1,24 @@
 {% assign author = page.author | default: page.authors[0] | default: site.author %}
 {% assign author = site.data.authors[author] | default: author %}
 
+<!-- Categories -->
+<nav class="nav__list">
+<ul class="nav__items" id="category_tag_menu">
+    <li>
+        <span class="nav__sub-title">📂 Total ({{site.posts | size}})</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category %}
+                <li>
+                    <a href="/categories/#{{category[0] | slugify}}" class="">{{category[0]}} ({{category[1].size}})</a>
+                </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </li>
+</ul>
+</nav>
+
 <div itemscope itemtype="https://schema.org/Person" class="h-card">
 
   {% if author.avatar %}
