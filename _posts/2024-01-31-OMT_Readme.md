@@ -6,11 +6,11 @@ toc: true
 layout: archive
 author_profile: true
 types: posts
-docs: Helfit
+docs: OMT
 
 ---
 
-###  2024.02.01(수)
+###  2024.01.31(화)
 
 <br/>
 
@@ -21,7 +21,7 @@ docs: Helfit
 
 
 - **`프로젝트 명` :** OnMyTicket [ OMT ]
-- **`프로젝트 기간` :** 2023.10.02 - 2024.02.01
+- **`프로젝트 기간` :** 2023.10.02 - 2024.01.30
 - **`한줄 소개` :** OnMyTicket [ 대표 영화 3사의 예매기능의 통합, 나만의 티켓을 통한 유저의 컬렉션 모으기 ]
 - **`팀원` :** 김세훈 (팀장), 김지열
 - **`배포 링크` :** [🌐 OnMYTicket ](https://omt-onmyticket.vercel.app/)
@@ -86,11 +86,11 @@ Main Stack / Sub Stack
 | <a href = "https://omt-onmyticket.vercel.app/"><img width="100%" src="../../assets/images/2024-02-01-OMT_Readme/37ae7930-3726-413f-8534-7e73b4f2c079-20240130182131139.gif"/></a> | <a href = "https://omt-onmyticket.vercel.app/"><img width="100%" src="../../assets/images/2024-02-01-OMT_Readme/01814b54-73bf-413b-a6ae-332bd1267717.png"/></a> |
 |                    **인기 게시판 페이지**                    |                    **각 카테고리 페이지**                    |
 |                                                              | <img width="100%" src="https://user-images.githubusercontent.com/104547038/228576331-711438ec-0f06-4f4f-ab32-d15149d65b89.png"/> |
-|             **게시글 작성 & 수정 페이지 [세훈]**             |                    **상세 페이지 [세훈]**                    |
+|                **게시글 작성 & 수정 페이지**                 |                       **상세 페이지**                        |
 | <img width="100%" src="https://user-images.githubusercontent.com/104547038/228465348-83e8cf55-df79-4ff7-96f3-ed3893fc510f.png"/> | <img width="100%" src="https://user-images.githubusercontent.com/104547038/228467569-2967a476-bbd8-4f6b-bd32-9983e1e89dc7.png"/> |
-|                 **검색 결과 페이지 [세훈]**                  |                    **Map 페이지 [영원]**                     |
+|                    **검색 결과 페이지 **                     |                        **Map 페이지**                        |
 | <img width="100%" src="https://user-images.githubusercontent.com/104547038/228464428-38af557f-3bc7-4f89-9edb-57bfc8b18623.png"/> | <img width="100%" src="https://user-images.githubusercontent.com/104547038/228574793-e51b9397-f149-42eb-b88f-fcd4f8623bb8.png"/> |
-|                   **캘린더 페이지 [준희]**                   |                    **마이페이지 [영원]**                     |
+|                      **캘린더 페이지 **                      |                        **마이페이지**                        |
 | <img width="100%" src="https://user-images.githubusercontent.com/104547038/228575347-b93a70c7-d1b0-454b-aaef-78f8e7f3bebb.png"/> | <img width="100%" src="https://media.discordapp.net/attachments/1082161054475366420/1090648799447367780/image.png"/> |
 
 -----------------
