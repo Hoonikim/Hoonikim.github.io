@@ -1,7 +1,7 @@
 ---
-title: "[Project] On My Ticket 회고"
-categories: Project
-tags: [배포, OMT]
+title: "[회고] On My Ticket"
+categories: OMT
+tags: [회고, OMT]
 toc: true
 layout: archive
 author_profile: true
@@ -21,13 +21,24 @@ docs: OMT
 
 
 - **`프로젝트 명` :** OnMyTicket [ OMT ]
-- **`프로젝트 기간` :** 2023.10.02 - 2024.01.26
-- **`한줄 소개` :** OnMyTicket [ 대표 영화 3사의 예매기능의 통합, 나만의 티켓을 통한 유저의 컬렉션 모으기 ]
+
+- **`프로젝트 기간` :** 2023.09.02 - 2024.01.26
+
+- **`한줄 소개` :** OnMyTicket  -  대표 영화관 3사의 예매기능의 통합, 나만의 티켓을 통한 유저의 컬렉션을 모을 수 있는 웹 페이지
+
 - **`팀원` :** 김세훈 (팀장), 김지열
+
 - **`배포 링크` :** [🌐 OnMYTicket ](https://omt-onmyticket.vercel.app/)
+
 - **`작업 깃허브 링크` :**<img alt="github logo" src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65"> [ OMT ](https://github.com/OMT-OnMyTicket/OMT)
-- **`사용자 요구사항 정의서`:** [사용자요구사항 정의서](https://docs.google.com/spreadsheets/d/1CMZ0vPLsRzbaSN3fDZzSyARoB6mMXGynoNTU2Ff2kV4/edit#gid=0)
-- **`개발자 테스트 체크리스트`:** [개발자 테스트 체크리스트](https://docs.google.com/spreadsheets/d/1loGpSgYrJfGkBTvNDcMNfbmZGAzUSNKmb_lPFHd_AWo/edit#gid=0)
+
+- **`사용자 요구사항 정의서`:** [사용자요구사항 정의서](https://docs.google.com/spreadsheets/d/1VlqhETC1om6duJ2IAhafjqzjnjXuem83h4loEhI-Uqc/edit#gid=0)
+
+- **`테이블 명세서`:** [테이블 명세서](https://docs.google.com/spreadsheets/d/1ERTUD86rGCYTPDTLLCHrb4GBEBrCmKRUJdhToXBn89I/edit#gid=0)
+
+- **`API 명세서`:** [API 명세서](https://documenter.getpostman.com/view/24688585/2s9YJXZk52#29253473-b2f2-4ddc-be3a-f04c66b51ca2)
+
+  
 
 <br/>
 
@@ -37,7 +48,7 @@ docs: OMT
 |                       김세훈<br/>(FE)                        |                        김지열<br>(BE)                        |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | <img alt="김세훈" src="https://user-images.githubusercontent.com/104547038/228111580-6ec31d43-8cca-4df9-8646-397f0fa6eebd.jpg" height="100" width="100"> | <img alt="김지열" src="https://user-images.githubusercontent.com/104547038/228111594-faa75c09-7693-4d17-974c-f294df7c74f9.jpg" height="100" width="100"> |
-|                 - **Front의 모든 파트**<br/>                 |                 - **Back의 모든 파트**<br/>                  |
+| - **Front의 모든 파트**<br/><br />- **Introduction Page**<br />- AOS & CSS 적극 활용<br /><br />- **Main Page**<br />- 검색 ,영화 예고편 , 무비차트, 각종 정보등<br /> 다양한 기능 제공<br />- Youtube, KMDB, KOPIC등 API 적극 활용<br /><br />- **Ticketing Page**<br />- 빠른 예매와 직접 예매<br />- **빠른예매 Page**<br />- KaKao Map Api 활용<br />- 유저 선택지 최소화<br />- Loding을 이용한 데이터 선별<br />- **직접예매 Page**<br />- 실제 예매와 같은 좌석, 시간 선택<br />- 유저의 모든 선택 권한제공<br />- **결제 Page**<br />- TossPayments Api 활용<br /><br />- **Search Page**<br />- 키워드 연관 단어, 자동완성<br />- 영화 정보 제공<br />- 나만의 티켓 추가 기능 제공<br /><br />- **My ticket Page**<br />- 나만의 티켓 제공 (오리지널 티켓)<br />- 함께 시청한 사람, 나만의 리뷰, 별점 기능<br />- 나만의 영화 순위 기능 <br /> |                 - **Back의 모든 파트**<br/>                  |
 
 
 
@@ -59,11 +70,11 @@ Main Stack / Sub Stack
 
 |                             Html                             |                             CSS                              |                          TypeScript                          |                            NextJS                            |                            Figma                             |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img alt="Html" src ="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/440px-HTML5_logo_and_wordmark.svg.png" width="65" height="65" /> | <img src="https://user-images.githubusercontent.com/111227745/210204643-4c3d065c-59ec-481d-ac13-cea795730835.png" alt="CSS" width="50" height="65" /> | <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566879300/noticon/fvty9lnsbjol5lq9u3by.svg" alt="icon" width="65" height="65" /> | <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1640982247/noticon/tpvr26zp02angin4t0jv.png" alt="icon" width="65" height="65" /> |
+| <img alt="Html" src ="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/440px-HTML5_logo_and_wordmark.svg.png" width="100vh"  /> | <img src="https://user-images.githubusercontent.com/111227745/210204643-4c3d065c-59ec-481d-ac13-cea795730835.png" alt="CSS" width="100vh" /> | <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="100vh" /> | <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566879300/noticon/fvty9lnsbjol5lq9u3by.svg" alt="icon" width="100vh"  /> | <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1640982247/noticon/tpvr26zp02angin4t0jv.png" alt="icon" width="100vh" /> |
 
 |                          KaKao Map                           |                            axios                             |                           Prittier                           |                            esLint                            |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://play-lh.googleusercontent.com/Nvrf8Z89_3S8H6YnOLgyAbe-PSSeCZnJDA8zv7LY04hEvi8atTgp_fmQ5RZ591Qpxh5G=w600-h300-pc0xffffff-pd" width="100" height="65"/> | <img src="https://axios-http.com/assets/logo.svg" width="65" height="65"/> | <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566918959/noticon/fvlo9g4lxojigdn72l8i.png" width="65" height="65"/> | <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1599890132/noticon/c9dgkhp3m5rxmzn3fnp9.png" width="100" height="65"/> |
+| <img src="https://play-lh.googleusercontent.com/Nvrf8Z89_3S8H6YnOLgyAbe-PSSeCZnJDA8zv7LY04hEvi8atTgp_fmQ5RZ591Qpxh5G=w600-h300-pc0xffffff-pd" width="100vh"/> | <img src="https://axios-http.com/assets/logo.svg" width="100vh" /> | <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566918959/noticon/fvlo9g4lxojigdn72l8i.png" width="100vh"/> | <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1599890132/noticon/c9dgkhp3m5rxmzn3fnp9.png" width="100vh"/> |
 
 <br/>
 
@@ -73,7 +84,7 @@ Main Stack / Sub Stack
 
 |                             Java                             |                             AWS                              |                            mySQL                             |                             JWT                              |                            Spring                            |                         Spring Boot                          |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" /> | <img alt="spring-boot logo" src="https://play-lh.googleusercontent.com/3C-hB-KWoyWzZjUnRsXUPu-bqB3HUHARMLjUe9OmPoHa6dQdtJNW30VrvwQ1m7Pln3A" width="65" height="65" > | <img alt="spring logo" src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" height="50" width="50" > | <img alt="spring-boot logo" src="https://t1.daumcdn.net/cfile/tistory/27034D4F58E660F616" width="65" height="65" > |
+| <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="100vh" /> | <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="100vh" /> | <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="100vh" /> | <img alt="spring-boot logo" src="https://play-lh.googleusercontent.com/3C-hB-KWoyWzZjUnRsXUPu-bqB3HUHARMLjUe9OmPoHa6dQdtJNW30VrvwQ1m7Pln3A" width="100vh" > | <img alt="spring logo" src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" width="100vh" > | <img alt="spring-boot logo" src="https://t1.daumcdn.net/cfile/tistory/27034D4F58E660F616" width="100vh" > |
 
 <br/>
 
@@ -83,36 +94,23 @@ Main Stack / Sub Stack
 
 |                          소개페이지                          |                          메인페이지                          |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img width="100%" src="https://github.com/OMT-OnMyTicket/OMT/assets/104547038/fcec50d9-919b-4585-aea5-b3cda80e09ec"/> | <img width="100%" src="https://github.com/OMT-OnMyTicket/OMT/assets/104547038/fcec50d9-919b-4585-aea5-b3cda80e09ec"/> |
-|                        **소개페이지**                        |                    **각 카테고리 페이지**                    |
-| <img width="100%" src="https://github.com/OMT-OnMyTicket/OMT/assets/104547038/fcec50d9-919b-4585-aea5-b3cda80e09ec"/> | <img width="100%" src="https://user-images.githubusercontent.com/104547038/228576331-711438ec-0f06-4f4f-ab32-d15149d65b89.png"/> |
-|                **게시글 작성 & 수정 페이지**                 |                       **상세 페이지**                        |
-| <img width="100%" src="https://user-images.githubusercontent.com/104547038/228465348-83e8cf55-df79-4ff7-96f3-ed3893fc510f.png"/> | <img width="100%" src="https://user-images.githubusercontent.com/104547038/228467569-2967a476-bbd8-4f6b-bd32-9983e1e89dc7.png"/> |
-|                     **검색 결과 페이지**                     |                        **Map 페이지**                        |
-| <img width="100%" src="https://user-images.githubusercontent.com/104547038/228464428-38af557f-3bc7-4f89-9edb-57bfc8b18623.png"/> | <img width="100%" src="https://user-images.githubusercontent.com/104547038/228574793-e51b9397-f149-42eb-b88f-fcd4f8623bb8.png"/> |
-|                      **캘린더 페이지 **                      |                        **마이페이지**                        |
-| <img width="100%" src="https://user-images.githubusercontent.com/104547038/228575347-b93a70c7-d1b0-454b-aaef-78f8e7f3bebb.png"/> | <img width="100%" src="https://media.discordapp.net/attachments/1082161054475366420/1090648799447367780/image.png"/> |
+| <img width="100%" src="https://github.com/OMT-OnMyTicket/OMT/assets/104547038/fcec50d9-919b-4585-aea5-b3cda80e09ec"/> | <img width="100%" src="https://github.com/OMT-OnMyTicket/OMT/assets/104547038/6290d663-f545-49fa-914f-c2b4b9c640f2"/> |
+|                         **예매Home**                         |                        **직접 예매**                         |
+| <img width="100%" src="https://github.com/OMT-OnMyTicket/OMT/assets/104547038/a4e0fe1d-7e79-4db2-b412-70dbb138d261"/> | <img width="100%" src="https://github.com/OMT-OnMyTicket/OMT/assets/104547038/58a667c6-5a1d-471c-8d60-bf4a8398f441"/> |
+|                        **빠른 예매**                         |                       **검색 페이지**                        |
+| <img width="100%" src="https://github.com/OMT-OnMyTicket/OMT/assets/104547038/8821a4fd-abc2-4e32-ac71-e400cbfba43b"/> | <img width="100%" src="https://github.com/OMT-OnMyTicket/OMT/assets/104547038/e24dda17-d0aa-4734-ad64-311f72834831"/> |
+|                      **MyTicket Intro**                      |                       **Ranked Movie**                       |
+| <img width="100%" src="https://github.com/OMT-OnMyTicket/OMT/assets/104547038/9a913e30-5dcd-4a97-ab67-f9af95da6c49"/> | <img width="100%" src="https://github.com/OMT-OnMyTicket/OMT/assets/104547038/27bf7c64-50bd-4599-9816-068bb0a3722d"/> |
+|                       **TicketRoom **                        |                      **Ticket Review**                       |
+| <img width="100%" src="https://github.com/OMT-OnMyTicket/OMT/assets/104547038/a05d2aad-f17d-4c26-a8c4-0c2a60d538d8"/> | <img width="100%" src="https://github.com/OMT-OnMyTicket/OMT/assets/104547038/f36aefbd-ac33-4f8a-a0ad-566825d18a48"/> |
 
 -----------------
 
-#### 🙆‍♂️ 사용자 리뷰
-
-![스크린샷 2023-04-12 22 34 34](https://user-images.githubusercontent.com/104547038/231474472-a4fd62ee-f997-45d0-99b1-59f5b06b6ba4.png)
 
 
 
-## 나의 메인프로젝트 시작
 
-------------
-
-이번 프로젝트는 6명의 남자로 구성되어 있었다. 이전에 페어 활동을 함께 했던 준희님께서 같이하자고 제안을 주셨고 그렇게 팀에 합류하게 되었다. 
-팀에는 7년정도 프론트 개발을 진행하시다 백엔드를 공부해보고 싶어서 이번 교육에 합류하신 지원님도 계셨다. 프로젝트를 하면서 정말 많이 배웠고 나도 백엔드까지 하는 풀스택 개발자가 최종 목표이기 때문에 나의 롤모델 같은 분이셨다. 
-
-메인프로젝트는 저번 프리보다는 확실히 시간과 정성이 더 많이 들어갔던 프로젝트인 것 같다. 이유도 이유인게 수강기간동안 배우지 않았던 **타입스크립트**와 **Next.js**를 사용하자는 의견이 나왔고 나도 흔쾌히 동의했다. 우선 **타입스크립트**를 써보고 싶었던 이유는 현재 많은 기업에서 타입스크립트로 개발을 하고 있다는 이유가 가장 컸고 그 다음으로 동적타입의 인터프리터 언어인 자바스크립트에 비해 타입스크립트는 정적타입의 컴파일 언어이기 때문에 자바스크립트처럼 런타임에서 에러를 발견하는 것이 아닌 코드 작성 단계에서 타입을 체크해 오류를 확인할 수 있고 타입을 미리 결정하기 때문에 실행 속도가 매우 빠르다는 장점이 있다는 점에서 꼭 한번 사용해보고 싶었다. 
-
-**Next.js**를 사용한 이유는 SSR으로 구현되어 seo향상에 큰 도움을 준다는 점이였고 라우팅의 용이성 때문에 사용해보자는 이야기가 나왔고 리액트와 크게 다르지 않다고 생각해 나도 흔쾌히 동의했다. 실제로 개발을 하면서도 SSR도 체감했고 라우팅의 용이성도 체감했다. 하지만 제대로 공부하지 않고 진행했던 탓인가 배포를 하고 난 뒤 로컬환경에서는 발생하지 않던 에러들이 마구 발견되기 시작했다. 치명적인 에러들은 아니였지만 대부분은 새로고침을 했을 때 어느 페이지에 있던 Home으로 라우팅 된다는 점이였다. 지금 다시 초기 기획단계로 돌아간다면 우선 정해진 시간이 짧으니까 React로 개발을 하고 Next.js로 리팩토링 해보자고 제안해볼 것 같다. 
-
-
+#### 🙆‍♂️ 회고
 
 ### KPT
 
@@ -120,65 +118,73 @@ Main Stack / Sub Stack
 
 ##### ✅ Keep
 
-**OAuth의 성공**
+**다양한 API의 활용**
 
-이전 프리때 실패했던 OAuth를 이번 메인에서는 성공할 수 있어서 굉장히 기뻤다. 지원님께 많은 도움을 받았고 구조 자체를 잘못 이해하고 있었다는 사실을 알게되었다. 프론트 쪽에서는 굉장히 쉬운..? 작업이었다. 
+솔로 프로젝트로 기획했기 때문에 내가 활용할 수 있는 API를 사전에 찾아두는 것이 굉장히 중요했다. KMDB, KOPIC 같은 대 용량의 데이터는 관리해본적이 처음이라 많이 당황스러웠지만 필요한 데이터만 추출해서 잘 해결한 것 같다. 
 
-**새로운 기술 스택에 대한 도전**
+이전 프로젝트인 헬핏에서 지도 관련 API를 내가 해보고 싶었지만 기회가 되지 않아 못했었고 당시 담당하셨던 분께서 굉장히 어려워하셨어서 이번 프로젝트에 지도 API를 꼭 넣고싶었다. 생각보다 굉장히 간단하게 끝냈고 마커 부분과 서치 결과 추출 부분만 좀 더 공부해보면 더 좋은 결과물을 낼 수 있을 것 같다. 
 
-팀원분들 모두 새로운 기술스택에 있어 두려움보단 기대감이 더 크셨던 것 같다. 사실 현업에서는 새로운 기술 스택 도입에 굉장히 보수적이라고 들었다. 하지만 이번에 도전했던 TS와 Next는 현업에서도 많이 사용중이고 장점도 많아서 꼭 공부해보고 싶었는데 이번 기회에 도전해볼 수 있어서 좋았다. 
+**추가 편의기능에 대한 고찰**
 
-**기간내에 업무 마무리하기**
+프로젝트를 진행하면서 더 좋은 편의기능에 대해 생각했던 것 같다. 항상 내가 유저라면? 으로 접근했고 ' 이렇게 하면 더 편하겠다. ' 라는 생각으로 추가적인 기능들을 넣어뒀던 것 같다. 중간중간 더 욕심났던 부분들도 있지만 적절한 타협점을 찾아서 잘 추가해준 것 같다. 
 
-프리때 팀으로 작업했던 내용을 이번엔 혼자서 진행해야 했다. 작업량이 많았음에도 기간내에 잘 마무리할 수 있어서 좋았다. 
+**다양한 CSS 시도**
 
-**아이디어 제공**
+css는 매번 어렵다... 이번엔 나 혼자 모든걸 결정해야 했기에 최대한 멋지게 만들어내고 싶었다. 애니메이션 효과를 적극 활용했고 이전엔 몰랐던 상투적인 방식을 좀 더 매끄럽게 만들어냈다. ( 예를들어 Hover시 크기가 커지게 하는걸 width로 조정하는 것이 아닌 scale을 통해 조정 )
 
-이번 프로젝트에서 식단 정보제공에 있어 ChatGPT를 활용해보자던지 게시판 중 일부 갤러리를 SNS형식으로 만들겠다는 등 다양한 아이디어를 제공했고 이게 잘 이루어지고 칭찬도 많이 받아서 굉장히 뿌듯했다. 
+**두 가지 배포 방식 시도**
 
-**Git에 대한 이해**
+초반에 Vercel로도 배포를 진행해보고 AWS로도 배포를 해보았다. 우선 내가 느끼기엔 두 가지 방식 중 배포시간이 훨씬 빠르고 배포방식이 몹시 간단한건 Vercel인 것 같다. Vercel로 처음 배포했을 땐 30분 정도만에 끝냈는데 AWS로 배포할 땐 3시간이 넘게 걸렸다.. 물론 둘다 통달했다는 아니지만 아직까진 Vercel을 통한 배포가 내겐 접근성이 좋다. 
 
-프리때 팀장님께서 굉장히 꼼꼼하셨던 분이여서 Git에대한 중요성을 많이 강조하셨는데 이번 메인에 오면서 Git사용에 있어 팀원들에게 많은 도움을 줄 수 있어서 좋았던 것 같다. 아직 공부를 더 해야하지만 기본적인 구조를 익혔으니 다른 기능들도 금방 익힐 수 있을 것 같다. 
+**책임감**
 
-**팀원들과의 소통**
+당연하다. 내가 하기로 한 프로젝트이고 이 프로젝트가 곧 내 실력을 보여주는 것이기에 항상 내 기준 최선의 방법을 탐색하고 진행하려 했다. 
 
-우리 팀은 개발 기간 동안 2번의 실제 미팅을 가지면서 정말 많이 친해졌고 서로 많은 이야기를 나눌 수 있었다. 덕분에 개발하는 내내 화기애애한 분위기를 유지하며 개발할 수 있었다. 
+**Next에 대한 이해**
+
+이번에 Next.js13으로 프로젝트를 진행했는데 이전 Helfit 프로젝트 때 버전과 파일트리나 라우팅 방법이 달라져서 처음에 굉장히 혼란스러웠다. 역시 프론트는 빠르게 변화하는구나를 느꼈고 다시 공부했다. 
+
+Next.js 13 버전은 정보가 턱없이 부족했고 이전 버전에서 구동되던 코드들 중 안되는 코드들도 정말 많았기에 공식 홈페이지를 통해 많은 공부를 했다 
+
+
+
+**메모의 습관화**
+
+이번 프로젝트에서는 아이디어가 생각날 때마다 메모장에 메모를 해왔다. 형식에 구애받지 않고 자유롭게 메모를 진행했고 이게 진짜 큰 도움이 많이 됐다. 
+
+다만 단점이 조금 있었다면 너무 자유로워서 해당 내용을 찾지 못하고 다시 새로운 아이디어로 진행했던 적도 있었다. 특정 파트, 어느 부분 정도는 대제목으로 구분을 해놔야겠다. 
 
 
 
 ##### ✅ Problem
 
-**전역 관리**
+**커뮤니케이션**
 
-User 정보처리에서 팀원분 중 한분이 state로 전역에서 편하게 관리하는게 어떻겠냐고 하셨고 나는 진행중인 작업이 끝나고 바로 해보겠다고 하고 redux 개발을 진행했다. redux로 구현까지 되었는데 새로고침을 했을 때 state가 날아가는 것을 잡지 못했다. 이후에 useContext도 활용해보았지만 같은 결과를 도출했다. 새로고침을 했을 때 State값을 유지하는 방법을 계속 찾아보았지만 시간관계상 마무리하지 못하고 결국 로컬스토리지를 이용하기로 했는데 이부분은 꼭 다시 제대로 공부해보고 싶다. 
+지열님께 원하는 목적을 명확하게 전달하지 못했던 것 같다. 각자 개발을 진행하고 나서 회의를 진행하면 내가 원했던 결과물과 많이 달랐다. 유저가 어떤식으로 접근하는지, 데이터를 어떻게 보낼건지, 어떤 페이지에서 이 데이터를 받을지, 받은 데이터는 어떻게 사용되는지 등등 나름 정리하고 말한다고 생각했는데 역시 내가 명확하지 않으면 상대방도 무슨 소리인지 모른다. 내가 원하는 바를 확실하게 정리하고 상대방의 이해를 묻는 행동이 더욱이 필요했다. ( 함께 만들어 나가는 것이기에 꼭 필요한 부탁은 잘못된 게 아니다.. 모든걸 알아서 하려고 하지말자...  )
 
-**배포 후 에러**
+**프로젝트 스케줄 관리**
 
-Next로 개발이 얼추 마무리될때 쯤 CI/CD를  늦게 구현했다. 로컬환경에서는 이상없이 잘 진행되었던 코드들이 배포를 하고 난 뒤 다양한 에러를 발생시켰다. CI/CD를 좀 더 일찍 구축했어야 했고 Next에 대한 이해가 부족했다고 생각한다. 
+스케줄 관리를 잘 못했다. 이전 프로젝트에서는 협업이기 때문에 매일 아침에 모여 각자의 스케줄을 정리하고 끝낸 일, 진행할 일을 정리했는데 이번 프로젝트는 혼자라서 이 부분을 안일하게 생각했던 것 같다. 처음엔 스케줄 관리를 했지만 이후엔 점점 안하게 되었다. 지금 생각해보면 이 스케줄 관리만 잘했어도 프로젝트 완성 기간을 대폭 단축할 수 있었을 것 같다... 
 
-**백엔드에 잦은 요청**
+**명확한 기간 설정**
 
-게시판 작업을 하면서 필요한 데이터에 변동이 생각보다 많아서 함께 작업을 하는 백엔드분께 잦은 수정요청을 했었다. 나름 정리를 해놓고 작업시간 내에서 부탁을 드리긴 했지만 분명 한번에 말씀 드릴 수 있었던 부분도 너무 잦게 부탁을 드려 죄송했다....
+프로젝트 기간을 명시하지 않았다. 때문에 여유를 너무 부렸던 것 같다. 취업준비를 하면서 공부하는 느낌으로 진행한 프로젝트라고 해도 기간을 여유롭게라도 명시했어야 했다. 
 
-**Next에 대한 이해부족**
+**반응형 웹**
 
-1번 문제와 비슷하다. Next.js를 사용하면서 페이지 라우팅의 장점을 너무나도 잘 느낄 수 있었지만 배포에서 생각보다 많은 에러를 발견하면서 Next에 대한 이해가 많이 부족한 상태로 개발을 진행했던 것이 많이 아쉬웠다. 
+위의 두 문제점으로 이 결과를 나타냈다. 우선 모든 기능과 디자인을 구현해냈고 지열님도 개발을 마치기 위해 프로젝트를 끝냈다. 반응형 웹은 필수라고 생각한다. 모바일 버전을 기반으로 코드를 만들었어야 했는데 이번에도 마찬가지로 웹버전을 기준으로 신나게 코딩을 진행해버렸다. 
+
+3월내로 모바일 버전까지 끝내놓자... 
 
 
 
 ##### ✅ Try
 
-**기획 단계의 중요성**
+**원하는 바를 확실하게 말하기**
 
-이번 프로젝트로 기획 단계에서 개발시 필요한 개발 툴을 확실하게 알고 진행해야 한다는 걸 느꼈다. semantic-ui, Next.js 등 개발을 하며 너무 많은 내용이 변경되었고 예상치못한 에러로 많은 시간을 허비하기도 했다. 앞으로는 기획단계에서 더 세밀한 계획을 세워야할 것 같다. 
+**메모의 활용 -> 프로젝트 스케줄 공유**
 
-**메모를 습관처럼**
-
-메모를 잘 활용하기는 했지만 대제목? 느낌으로만 메모를 작성해서 회의때 내가 부탁하려던 내용, 전달하려던 내용이 구체화되지 않았던 적이 많았다. 메모를 더 자세하게 작성해서 꼼꼼한 프로젝트를 진행해야겠다. 
-
-**성능 강화**
-
-현재 앞서 포스팅한 에러들 중 일부가 해결되지 않은 상태이다. 리팩토링을 하루빨리 진행해서 디테일한 에러들을 잡고 홈페이지 성능을 끌어올릴 생각이다.
+**3월 내로 모바일 버전 개발완성**
 
 
 
@@ -186,27 +192,22 @@ Next로 개발이 얼추 마무리될때 쯤 CI/CD를  늦게 구현했다. 로�
 
 -----------
 
-나는 정말 운이 좋은 사람인 것 같다. 프리, 메인 모두 정말 좋은 팀원들을 만났고 정말 많은 도움을 받을 수 있었다. 이렇게 좋은 사람들을 얻었다는 사실이 나에게는 너무나도 큰 복인 것 같다. 프로젝트를 진행하기 전의 내 모습과 현재의 내 모습에는 너무나 많은 차이가 있다. 사용할 수 있는 기술스택도 늘어났고 코드에 대한 이해도 늘었다. 에러를 마주했을 때 어떻게 해결하는지에 대해서도 다양한 방법들을 얻은 것 같다. 아직 내가 만든 페이지들이 완벽하다고 말할 수 없다. 리팩토링을 통해 완벽한 페이지로 만들 것이고 실제로 서비스해도 손색이 없게 하고싶은 욕심이 많이 생기는 프로젝트였다. 
+내가 만들고 싶었던 웹 페이지를 만들어보고 싶었고 내 한계에 부딪혀보고 싶었다. 그래서 서버리스한 솔로 프로젝트로 기획을 했었고 정 필요하다면 자체 서버 개발이 가능한 **Next.js**를 통해 개발을 하니 공부를 통해서 필요한 부분만 서버를 만들어 나가며 프로젝트를 진행하려고 했다. 
+
+프로젝트를 시작한 지 한 달 정도 지났을까? 전에 함께 프로젝트를 진행했던 백엔드 지열님께서 혹시 같이 해도 되냐는 의견을 보내주셨고 지열님이 계신다면 로그인 관리나 필요하다고 생각되는 서버 부분은 맡길 수 있어서 함께 진행하기로 했다.  
 
 
 
+사실 혼자 진행하려했던 프로젝트여서 체계가 확립되어 있지는 않았다. 요구사항 정의서도 만들지 않았고 내가 필요한 기능을 정리해놓은 메모장? 정도였다. 
+부랴부랴 함께 회의를 하면서 요구사항 정의서도 만들어보고 체크리스트도 만들고 노션도 만들고 정신이 없었다. 지열님도 그렇고 나도 그렇고 서로 취업준비를 하면서 진행했기 때문에 이전 프로젝트처럼 명확하게 시간을 정해놓고 개발을 진행하지 않았다. 정해놓은 것은 매일 7~8시 사이에 회의를 진행한다는거 ? 이 마저도 시간이 지나면서 일주일에 2~3회로 줄어들었다. 
 
+내가 만들고싶은 웹 페이지를 만들어보는 것이기 때문에 빠른예매나 나만의 티켓처럼 아이디어가 생기면 즉각 적용이 가능했고 그렇기에 최대한 서버에 부담을 주지 않으려 노력했다. 처음 기획도 그러했었고 그렇기에 찾아놓았던 api들이 많았다. 이번 프로젝트에서 **KMDB, Toss, Kakao map, KOPIC** 등 정말 다양한 api들을 사용했다. 특히 KMDB를 사용하면서 데이터를 거르는데 시간을 많이 쏟았던 것 같다. 영화라는게 워낙 방대한 양의 데이터를 가지고 있고 그 데이터를 필요할 때마다 다 불러들일 수 는 없기 때문에 나름 최대한의 거름망(코드)을 만드려고 했던 것 같다. 
 
-#### 🐶 화목한 10팀 팀원들 사진 
+영화 포스터를 받아오지 못한다던지 겹치는 영화제목일 때 다른 영화의 정보를 가져온다던지 api가 내 뜻대로 되지 않는 경우가 많았다. 그럴땐 api를 제공했던 페이지를 찾아가 더 필터링 할 수 있는 코드가 있는지 주의깊게 찾아보고 postman을 통해 계속해서 테스트했다. 
 
------------------------
+CSS에서도 정말 고생을 많이 했는데 프론트 작업을 혼자했더라도 정말 멋진 웹페이지를 만들고 싶어서 이전엔 한번도 해보지 않았던 디자인적인 도전을 많이했다.  그래도 이번엔 레이아웃 짜는거에 고통 받지는 않았고 새로운 디자인 작업에서 많이 힘들었다. 
 
+이 외에도 많은 힘듦이 있었지만 나 혼자서 어디까지 할 수 있는지 그리고 더 성장하고 싶은 마음에 이 프로젝트를 시작했고 정말 오롯이 내 프로젝트다 생각하니 즐거운 마음이 더 컸었던 것 같다. 
 
-
------------------
-
-#### 🐶 멘토님 피드백 
-
-![스크린샷 2023-04-12 22 24 54](https://user-images.githubusercontent.com/104547038/231471845-01386dec-68e5-4da7-ac13-093e5ca61183.png)
-
-![스크린샷 2023-04-12 22 25 08](https://user-images.githubusercontent.com/104547038/231471868-2fd2d123-b033-4cd2-9e72-8279764be875.png)
-
-
-
-
+그리고 실제로 많이 배웠고 많이 성장했다. 
 

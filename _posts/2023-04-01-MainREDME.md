@@ -1,7 +1,7 @@
 ---
-title: "[Project] 메인프로젝트 HelFit 회고"
-categories: Project
-tags: [배포, Helfit]
+title: "[회고] 메인프로젝트 HelFit 회고"
+categories: Helfit
+tags: [회고, Helfit]
 toc: true
 layout: archive
 author_profile: true

@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[Project] 프리 프로젝트 회고 "
-categories: Project
-tags: [배포, StackOverFlow]
+title: "[회고] 프리 프로젝트 "
+categories: 회고
+tags: [회고, StackOverFlow]
 toc: true
 
 ---

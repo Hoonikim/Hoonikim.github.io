@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "[Helfit] 게시판 상세페이지 각 기능 & 조회 기능"
-categories: Project
-tags: [배포, Helfit]
+categories: Helfit
+tags: [CRUD, Helfit]
 toc: true
 
 ---

@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "[Helfit] 컴포넌트 "
-categories: Project
-tags: [배포, Helfit]
+categories: Helfit
+tags: [Component, Helfit]
 toc: true
 
 ---
