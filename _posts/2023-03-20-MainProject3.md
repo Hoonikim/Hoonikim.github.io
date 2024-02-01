@@ -1,11 +1,9 @@
 ---
 layout: single
 title: "[Helfit] 게시판 CRUD 게시글 작성 & 조회 "
-categories: Project
-tags: [배포, Helfit]
+categories: Helfit
+tags: [CRUD, Helfit]
 toc: true
-
-
 ---
 
 ###  2023.03.20(월)

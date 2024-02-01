@@ -1,7 +1,7 @@
 ---
-title: "[Project] Route로 느낀 동기와 비동기"
-categories: Project
-tags: [Map, OMT]
+title: "[OMT] Route로 느낀 동기와 비동기"
+categories: OMT
+tags: [Route, OMT]
 toc: true
 layout: archive
 author_profile: true

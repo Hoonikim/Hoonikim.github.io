@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "[Helfit] OAuth2 "
-categories: Project
-tags: [배포, Helfit]
+categories: OAUTH
+tags: [OAUTH, Helfit]
 toc: true
 
 ---
