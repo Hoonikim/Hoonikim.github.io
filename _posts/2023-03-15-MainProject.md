@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[Helfit] OAuth2 "
-categories: OAUTH
+categories: OAUTH Helfit
 tags: [OAUTH, Helfit]
 toc: true
 

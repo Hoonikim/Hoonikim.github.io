@@ -1,6 +1,6 @@
 ---
 title: "[회고] 메인프로젝트 HelFit 회고"
-categories: Helfit
+categories: Helfit 회고
 tags: [회고, Helfit]
 toc: true
 layout: archive
