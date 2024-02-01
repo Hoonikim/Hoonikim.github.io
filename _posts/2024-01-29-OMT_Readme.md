@@ -1,6 +1,6 @@
 ---
 title: "[회고] On My Ticket"
-categories: OMT
+categories: OMT 회고
 tags: [회고, OMT]
 toc: true
 layout: archive

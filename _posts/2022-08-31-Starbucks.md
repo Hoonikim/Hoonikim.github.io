@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[mini] 클론코딩"
-categories: mini Project
+categories: mini-Project
 tags: [HTML, 클론코딩]
 toc: true
 
