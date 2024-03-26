@@ -28,7 +28,7 @@ docs: Helfit
 - **`프로젝트 기간` :** 2023.03.02 - 2023.03.29
 - **`한줄 소개` :** HelFit !  유저 데이터를 기반으로 신체정보 통계 및 건강관리 기능을 제공, 커뮤니티를 통해 유저 간 정보 공유 및 교류,  주변의 운동시설을 안내해주는 위치 기반 서비스를 제공하는 헬스 종합 플랫폼 사이트
 - **`팀원` :** 김준희(팀장), 김세훈, 윤영원, 김태형(부팀장), 현지원, 김지열
-- **`배포 링크` :** [🌐 HelFit ](https://www.helfit.life/)
+- **`배포 링크` :** [🌐 HelFit ](https://helfit.vercel.app/) ( 현재 백엔드 서버가 닫혀있어 정상적으로 동작하지 않습니다. )
 - **`작업 깃허브 링크` :**<img alt="github logo" src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65"> [ HelFit ](https://github.com/sixman-s/helfit)
 - **`사용자 요구사항 정의서`:** [사용자요구사항 정의서](https://docs.google.com/spreadsheets/d/1CMZ0vPLsRzbaSN3fDZzSyARoB6mMXGynoNTU2Ff2kV4/edit#gid=0)
 - **`개발자 테스트 체크리스트`:** [개발자 테스트 체크리스트](https://docs.google.com/spreadsheets/d/1loGpSgYrJfGkBTvNDcMNfbmZGAzUSNKmb_lPFHd_AWo/edit#gid=0)
